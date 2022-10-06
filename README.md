@@ -21,9 +21,9 @@ Connections:
      MAX485 Module:
 
         DE/RE -> GND
-        RO -> RX
-        VCC -> 5V
-        GND -> GND
+        RO    -> RX
+        VCC   -> 5V
+        GND   -> GND
 
      XLR/DMX Output:
 
