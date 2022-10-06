@@ -5,6 +5,11 @@ Project: DMX WS2811 Lights
 
 Description: Controls a WS2811 based strands of LEDs via DMX input
 
+DMX uses 3 inputs, default starting channel is 1:
+
+ Channel 1 - Brightness
+ Channel 2 - Pattern
+ Channel 3 - Speed
     
 Connections:
 
