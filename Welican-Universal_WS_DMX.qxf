@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.2</Version>
+  <Author>Welican</Author>
+ </Creator>
+ <Manufacturer>Welican</Manufacturer>
+ <Model>Universal_DMX</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Brightness">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Off to On</Capability>
+ </Channel>
+ <Channel Name="Flow">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="0">Off</Capability>
+  <Capability Min="1" Max="255">Slow to Fast</Capability>
+ </Channel>
+ <Channel Name="Color">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="4">1 - Red</Capability>
+  <Capability Min="5" Max="9">2 - Amber 1</Capability>
+  <Capability Min="10" Max="14">3 - Amber 2</Capability>
+  <Capability Min="15" Max="19">4 - Amber 3</Capability>
+  <Capability Min="20" Max="24">5 - Amber 4</Capability>
+  <Capability Min="25" Max="29">6 - Amber 5</Capability>
+  <Capability Min="30" Max="34">7 - Warm White</Capability>
+  <Capability Min="35" Max="39">8 - Neutral White</Capability>
+  <Capability Min="40" Max="44">9 - Bright White</Capability>
+  <Capability Min="45" Max="49">10 - Green</Capability>
+  <Capability Min="50" Max="54">11 - Blue</Capability>
+  <Capability Min="55" Max="59">12 - Teal</Capability>
+  <Capability Min="60" Max="64">13 - Purple</Capability>
+  <Capability Min="65" Max="69">14 - Flow Y 1</Capability>
+  <Capability Min="70" Max="74">15 - Sparkle Blue Green</Capability>
+  <Capability Min="75" Max="79">16 - Flow Y 2</Capability>
+  <Capability Min="80" Max="84">17 - Rainbow Flow</Capability>
+  <Capability Min="85" Max="89">18 - Amber / White</Capability>
+  <Capability Min="90" Max="94">19 - Red / Green</Capability>
+  <Capability Min="95" Max="99">20 - Purple / Blue</Capability>
+  <Capability Min="100" Max="104">21 - Blue / White</Capability>
+  <Capability Min="105" Max="109">22 - Green / Blue</Capability>
+  <Capability Min="110" Max="114">23 - Amber / Blue</Capability>
+  <Capability Min="115" Max="119">24 - Rainbow</Capability>
+  <Capability Min="120" Max="124">25 - Two Colors</Capability>
+  <Capability Min="125" Max="129">26 - Two Colors Wide</Capability>
+  <Capability Min="130" Max="134">27 - Two Color Flow</Capability>
+  <Capability Min="135" Max="139">28 - One Color Slow</Capability>
+  <Capability Min="140" Max="144">29 - One Color Fast</Capability>
+  <Capability Min="145" Max="149">30 - Two Teal Hues</Capability>
+  <Capability Min="150" Max="154">31 - Two Warm Hues</Capability>
+  <Capability Min="155" Max="159">32 - Sparkle Rainbow</Capability>
+  <Capability Min="160" Max="164">33 - Rasta Flow</Capability>
+  <Capability Min="165" Max="169">34 - Rainbow Stretch</Capability>
+  <Capability Min="170" Max="174">35 - Sparkle Purple Gold</Capability>
+  <Capability Min="175" Max="179">36 - Sparkle Rasta</Capability>
+  <Capability Min="180" Max="184">37 - Three Color Hues</Capability>
+  <Capability Min="185" Max="189">38 - Vibrant Flow</Capability>
+  <Capability Min="190" Max="194">39 - Water Flow</Capability>
+  <Capability Min="195" Max="199">40 - Sparkle Purple Green</Capability>
+  <Capability Min="200" Max="204">41 - Two Color Hues 1</Capability>
+  <Capability Min="205" Max="209">42 - Two Color Hues 2</Capability>
+  <Capability Min="210" Max="214">43 - Flow X 1</Capability>
+  <Capability Min="215" Max="219">44 - Flow X 2</Capability>
+  <Capability Min="220" Max="224">45 - Color Wipe</Capability>
+  <Capability Min="225" Max="229">46 - Color Wipe Bounce</Capability>
+  <Capability Min="230" Max="234">47 - Flow Y Wide</Capability>
+  <Capability Min="235" Max="239">48 - Flow X Wide</Capability>
+  <Capability Min="240" Max="244">49 - Sparkle Amber</Capability>
+  <Capability Min="245" Max="249">50 - Sparkle Amber White</Capability>
+  <Capability Min="250" Max="254">51 - Sparkle Blue</Capability>
+ </Channel>
+ <Mode Name="3 Channel">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Brightness</Channel>
+  <Channel Number="1">Color</Channel>
+  <Channel Number="2">Flow</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+ </Physical>
+</FixtureDefinition>
