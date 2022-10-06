@@ -30,3 +30,13 @@ Connections:
         1 - Signal   (A)
         2 - Inverted (B)
         3 - Ground   (GND)
+        
+        
+DMX uses 3 inputs, default starting channel is 1:
+
+
+     Channel 1 - Brightness
+     Channel 2 - Pattern
+     Channel 3 - Speed
+
+See included QLC+ Fixture (qfx file). This can be copied to C:\Users\USERNAME\QLC+\Fixtures
