@@ -4,9 +4,9 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.12.2</Version>
-  <Author>Welican</Author>
+  <Author>Kineticus</Author>
  </Creator>
- <Manufacturer>Welican</Manufacturer>
+ <Manufacturer>Kineticus</Manufacturer>
  <Model>Universal_DMX</Model>
  <Type>Color Changer</Type>
  <Channel Name="Brightness">
