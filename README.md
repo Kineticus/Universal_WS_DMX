@@ -32,7 +32,7 @@ Connections:
         3 - Ground   (GND)
         
         
-DMX uses 3 inputs, default starting channel is 1:
+DMX uses 3 channels, default starting channel is 1:
 
 
      Channel 1 - Brightness
